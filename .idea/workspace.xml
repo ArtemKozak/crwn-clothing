@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87180304-6add-46a9-a4d2-480de65a86bd" name="Default Changelist" comment="removing logos">
-      <change afterPath="$PROJECT_DIR$/src/components/hompage/homepage.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hompage/hompage.component.jsx" afterDir="false" />
+    <list default="true" id="87180304-6add-46a9-a4d2-480de65a86bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hompage/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hompage/homepage.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hompage/hompage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hompage/hompage.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/components/hompage" />
     </key>
   </component>
@@ -82,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584287537821</updated>
-      <workItem from="1584287539269" duration="5136000" />
+      <workItem from="1584287539269" duration="6273000" />
     </task>
     <task id="LOCAL-00001" summary="first loading files">
       <created>1584288324569</created>
@@ -98,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584288493843</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding homepage component">
+      <created>1584293875574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584293875574</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,17 +120,18 @@
     </ignored-roots>
     <MESSAGE value="first loading files" />
     <MESSAGE value="removing logos" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing logos" />
+    <MESSAGE value="adding homepage component" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding homepage component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584291973378">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.960@0.0.1536.960" timestamp="1584291973378" />
-    <state x="351" y="82" key="CommitChangelistDialog2" timestamp="1584289250697">
+    <state x="351" y="82" key="CommitChangelistDialog2" timestamp="1584293875401">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="351" y="82" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584289250697" />
+    <state x="351" y="82" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584293875401" />
     <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1584293544759">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -189,10 +200,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1584288135744" />
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1584288496242">
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1584293878713">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1584288496242" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1584293878713" />
     <state x="498" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584291855441">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
