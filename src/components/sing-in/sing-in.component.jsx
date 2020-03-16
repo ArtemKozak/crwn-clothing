@@ -50,11 +50,13 @@ class SingIn extends React.Component{
                         value={this.state.password}
                         required
                     />
-                    <CustomButton type="submit" value="Submit Form">SING IN</CustomButton>
-                    <CustomButton onClick={singInWithGoogle}>
-                        {' '}
-                        Sing in with Google{' '}
-                    </CustomButton>
+                    <div className='buttons'>
+                        <CustomButton type="submit" value="Submit Form">SING IN</CustomButton>
+                        <CustomButton onClick={singInWithGoogle} isGoogleSingIn>
+                            {' '}
+                            Sing in with Google{' '}
+                        </CustomButton>
+                    </div>
                 </form>
             </div>
         );
