@@ -2,7 +2,9 @@ import React from "react";
 
 import "./sing-in.styles.scss";
 
+import { singInWithGoogle } from "../../firebase/firebase.utils";
 import FormInput from "../form-input/form-input.component";
+import CustomButton from "../custom-button/custom-button.component";
 
 class SingIn extends React.Component{
     constructor(props) {
@@ -48,7 +50,11 @@ class SingIn extends React.Component{
                         value={this.state.password}
                         required
                     />
-                    <input type="submit" value="Submit Form" />
+                    <CustomButton type="submit" value="Submit Form">SING IN</CustomButton>
+                    <CustomButton onClick={singInWithGoogle}>
+                        {' '}
+                        Sing in with Google{' '}
+                    </CustomButton>
                 </form>
             </div>
         );

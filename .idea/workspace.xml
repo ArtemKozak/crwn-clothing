@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87180304-6add-46a9-a4d2-480de65a86bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-input/form-input.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form-input/form-input.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sing-in/sing-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sing-in/sing-in.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sing-in/sing-in.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sing-in/sing-in.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/form-input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/custom-button" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,6 +65,7 @@
       <recent name="$PROJECT_DIR$/src/components/hompage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/custom-button" />
       <recent name="$PROJECT_DIR$/src/components/form-input" />
       <recent name="$PROJECT_DIR$/src/components/header" />
       <recent name="$PROJECT_DIR$/src/components/collection-preview" />
@@ -91,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584287537821</updated>
       <workItem from="1584287539269" duration="20271000" />
-      <workItem from="1584375947848" duration="1171000" />
+      <workItem from="1584375947848" duration="4688000" />
     </task>
     <task id="LOCAL-00001" summary="first loading files">
       <created>1584288324569</created>
@@ -163,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584318974648</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding sing in component">
+      <created>1584378460851</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584378460852</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +198,8 @@
     <MESSAGE value="adding collection preview" />
     <MESSAGE value="adding header component" />
     <MESSAGE value="adding sing in page" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding sing in page" />
+    <MESSAGE value="adding sing in component" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding sing in component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="428" y="290" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584376163176">
@@ -195,26 +210,26 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.960@0.0.1536.960" timestamp="1584291973378" />
-    <state x="352" y="33" key="CommitChangelistDialog2" timestamp="1584318974528">
+    <state x="352" y="33" key="CommitChangelistDialog2" timestamp="1584378460687">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="352" y="33" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584318974528" />
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1584318995760">
+    <state x="352" y="33" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584378460687" />
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1584381362870">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1584318995760" />
-    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1584318995760">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1584381362870" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1584381362869">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1584318995760" />
-    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1584318995759">
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1584381362869" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1584381362868">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1584318995759" />
-    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1584318995760">
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1584381362868" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1584381362869">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1584318995760" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1584381362869" />
     <state width="1494" height="327" key="GridCell.Tab.1.bottom" timestamp="1584318993378">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
