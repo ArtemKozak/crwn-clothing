@@ -2,6 +2,8 @@ import React from "react";
 
 import "./sing-in.styles.scss";
 
+import FormInput from "../form-input/form-input.component";
+
 class SingIn extends React.Component{
     constructor(props) {
         super(props);
@@ -30,28 +32,27 @@ class SingIn extends React.Component{
                 <span>Sin in with your email and password</span>
 
                 <form onSubmit={this.handleSubmit}>
-                    <input
+                    <FormInput
                         name='email'
                         type="email"
-                        onChange={this.handleChange}
+                        handleChange={this.handleChange}
+                        label='email'
                         value={this.state.email}
                         required
                     />
-                    <label>Email</label>
-                    <input
+                    <FormInput
                         name='password'
                         type="password"
-                        onChange={this.handleChange}
+                        handleChange={this.handleChange}
+                        label='password'
                         value={this.state.password}
                         required
                     />
-                    <label>Password</label>
-
                     <input type="submit" value="Submit Form" />
                 </form>
             </div>
         );
     }
-};
+}
 
 export default SingIn;
