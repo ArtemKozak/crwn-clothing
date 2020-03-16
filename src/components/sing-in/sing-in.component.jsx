@@ -2,7 +2,7 @@ import React from "react";
 
 import "./sing-in.styles.scss";
 
-import { singInWithGoogle } from "../../firebase/firebase.utils";
+import { auth, singInWithGoogle } from "../../firebase/firebase.utils";
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
 
@@ -16,8 +16,17 @@ class SingIn extends React.Component{
         };
     };
 
-    handleSubmit = event => {
+    handleSubmit = async event => {
         event.preventDefault();
+
+        const { email, password } = this.state;
+
+        try {
+            await auth.signInWithEmailAndPassword(email, password);
+            this.setState({ email: '', password: '' });
+        } catch (error) {
+            console.log(error);
+        }
 
         this.setState({email: '', password: ''})
     };
