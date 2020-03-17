@@ -97,6 +97,6 @@ class SingUp extends React.Component{
             </div>
         )
     }
-};
+}
 
 export default SingUp;

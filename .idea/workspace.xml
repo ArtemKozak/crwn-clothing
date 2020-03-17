@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87180304-6add-46a9-a4d2-480de65a86bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sing-in/sing-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sing-in/sing-in.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sing-in/sing-in.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sing-in/sing-in.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sing-up/sing-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sing-up/sing-up.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sing-up/sing-up.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sing-up/sing-up.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sing-in-and-sing-up/sing-in-and-sing-up.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sing-in-and-sing-up/sing-in-and-sing-up.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +63,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -91,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584287537821</updated>
       <workItem from="1584287539269" duration="20271000" />
-      <workItem from="1584375947848" duration="11271000" />
+      <workItem from="1584375947848" duration="15287000" />
     </task>
     <task id="LOCAL-00001" summary="first loading files">
       <created>1584288324569</created>
@@ -191,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584398560766</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="finishing sing up component">
+      <created>1584399227962</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584399227962</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +236,8 @@
     <MESSAGE value="adding firebase" />
     <MESSAGE value="creating sing in with google button" />
     <MESSAGE value="adding sing up component" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding sing up component" />
+    <MESSAGE value="finishing sing up component" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing sing up component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="428" y="290" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584376163176">
@@ -227,26 +248,26 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.960@0.0.1536.960" timestamp="1584291973378" />
-    <state x="352" y="33" key="CommitChangelistDialog2" timestamp="1584398560629">
+    <state x="352" y="33" key="CommitChangelistDialog2" timestamp="1584399227834">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="352" y="33" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584398560629" />
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1584381362870">
+    <state x="352" y="33" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584399227834" />
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1584445017976">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1584381362870" />
-    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1584381362869">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1584445017976" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1584445017974">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1584381362869" />
-    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1584381362868">
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1584445017974" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1584445017974">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1584381362868" />
-    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1584381362869">
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1584445017974" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1584445017975">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1584381362869" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1584445017975" />
     <state width="1494" height="327" key="GridCell.Tab.1.bottom" timestamp="1584318993378">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -295,22 +316,22 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state width="1494" height="327" key="GridCell.Tab.3.right/0.0.1536.960@0.0.1536.960" timestamp="1584318993381" />
-    <state x="269" y="119" key="SettingsEditor" timestamp="1584288135744">
+    <state x="269" y="119" key="SettingsEditor" timestamp="1584399625371">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1584288135744" />
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1584386550402">
+    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1584399625371" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1584399238230">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1584386550402" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1584399238230" />
     <state x="445" y="312" key="com.intellij.ide.util.TipDialog" timestamp="1584375950268">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="445" y="312" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1584375950268" />
-    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1584385850642">
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1584399622488">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1584385850642" />
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1584399622488" />
     <state x="498" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584291855441">
       <screen x="0" y="0" width="1536" height="960" />
     </state>

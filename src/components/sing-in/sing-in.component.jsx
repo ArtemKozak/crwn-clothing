@@ -39,8 +39,8 @@ class SingIn extends React.Component{
     render() {
         return(
             <div className='sing-in'>
-                <h2>I have already have an account</h2>
-                <span>Sin in with your email and password</span>
+                <h2 className='title'>I already have an account</h2>
+                <span>Sing in with your email and password</span>
 
                 <form onSubmit={this.handleSubmit}>
                     <FormInput
