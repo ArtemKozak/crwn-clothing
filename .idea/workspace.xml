@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87180304-6add-46a9-a4d2-480de65a86bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584287537821</updated>
       <workItem from="1584287539269" duration="20271000" />
-      <workItem from="1584375947848" duration="20629000" />
+      <workItem from="1584375947848" duration="20847000" />
+      <workItem from="1584471374023" duration="3779000" />
     </task>
     <task id="LOCAL-00001" summary="first loading files">
       <created>1584288324569</created>
@@ -258,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584453532772</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="adding card dropdown div">
+      <created>1584455289474</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1584455289474</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +280,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -299,7 +312,8 @@
     <MESSAGE value="fixing header.component.jsx and App.js" />
     <MESSAGE value="adding card icon and card dropdown components" />
     <MESSAGE value="adding card redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding card redux" />
+    <MESSAGE value="adding card dropdown div" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding card dropdown div" />
   </component>
   <component name="WindowStateProjectService">
     <state x="428" y="290" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584453492109">
@@ -310,26 +324,26 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.960@0.0.1536.960" timestamp="1584291973378" />
-    <state x="334" y="33" key="CommitChangelistDialog2" timestamp="1584453532654">
+    <state x="334" y="33" key="CommitChangelistDialog2" timestamp="1584455289340">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="334" y="33" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584453532654" />
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1584453134255">
+    <state x="334" y="33" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584455289340" />
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1584474664080">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1584453134255" />
-    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1584453134253">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1584474664080" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1584474664079">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1584453134253" />
-    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1584453134252">
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1584474664079" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1584474664079">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1584453134252" />
-    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1584453134254">
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1584474664079" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1584474664080">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1584453134254" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1584474664080" />
     <state width="1494" height="327" key="GridCell.Tab.1.bottom" timestamp="1584318993378">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
