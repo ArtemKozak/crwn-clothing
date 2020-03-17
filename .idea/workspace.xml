@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87180304-6add-46a9-a4d2-480de65a86bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584287537821</updated>
       <workItem from="1584287539269" duration="20271000" />
-      <workItem from="1584375947848" duration="18338000" />
+      <workItem from="1584375947848" duration="18711000" />
     </task>
     <task id="LOCAL-00001" summary="first loading files">
       <created>1584288324569</created>
@@ -226,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584451511860</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="adding card icon and card dropdown components">
+      <created>1584453121579</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584453121579</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +252,8 @@
     <MESSAGE value="finishing sing up component" />
     <MESSAGE value="added redux" />
     <MESSAGE value="fixing header.component.jsx and App.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing header.component.jsx and App.js" />
+    <MESSAGE value="adding card icon and card dropdown components" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding card icon and card dropdown components" />
   </component>
   <component name="WindowStateProjectService">
     <state x="428" y="290" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584376163176">
@@ -265,26 +264,26 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.960@0.0.1536.960" timestamp="1584291973378" />
-    <state x="334" y="33" key="CommitChangelistDialog2" timestamp="1584451511749">
+    <state x="334" y="33" key="CommitChangelistDialog2" timestamp="1584453121428">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="334" y="33" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584451511749" />
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1584451061063">
+    <state x="334" y="33" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584453121428" />
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1584453134255">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1584451061063" />
-    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1584451061062">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1584453134255" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1584453134253">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1584451061062" />
-    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1584451061061">
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1584453134253" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1584453134252">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1584451061061" />
-    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1584451061063">
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1584453134252" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1584453134254">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1584451061063" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1584453134254" />
     <state width="1494" height="327" key="GridCell.Tab.1.bottom" timestamp="1584318993378">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -337,10 +336,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1584399625371" />
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1584451513303">
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1584453123673">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1584451513303" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1584453123673" />
     <state x="445" y="312" key="com.intellij.ide.util.TipDialog" timestamp="1584375950268">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
